@@ -14,7 +14,7 @@ SHA256: d3eb33e5d941b59aa629a28c641f1cbdd14e865ff8014daee72e61add8cfdd9b
 MD5: 7e65bbf72f1f105524bc5cb092aa9240
 
 
-- [BurpSuit Professional 1.7.37](https://portswigger.net/burp/releases/professional-1-7-37))
+- [BurpSuit Professional 1.7.37](https://portswigger.net/burp/releases/professional-1-7-37)
 
 SHA256: d2f27b7c96b11f87898304b543149d79a23ee7ca3e69519d99d1493f3202f054
 

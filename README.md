@@ -5,7 +5,7 @@
 Prequisites
 ------------
 
-####Download .exe / .jar file from:
+#### Download .exe / .jar file from:
 
 - [BurpSuit Professional / Community 2022.8.5](https://portswigger.net/burp/releases/professional-community-2022-8-5?requestededition=professional)
 
@@ -20,11 +20,11 @@ SHA256: d2f27b7c96b11f87898304b543149d79a23ee7ca3e69519d99d1493f3202f054
 
 MD5: fe2ed99335c68d16b57883d2bfd6aeea
 	
-Download Burp Loader files. Then Follow Below Steps for Activation:
+#### Download Burp Loader files. Then Follow Below Steps for Activation:
 - [https://github.com/GTekSD/BurpSuit-launcher](https://github.com/GTekSD/BurpSuit-launcher)
 - [https://github.com/decrypt3r/Burp-Loader/](https://github.com/decrypt3r/Burp-Loader/)
 	
-If using in Windows 10, 11 Download and Install Java and JDK:
+#### Download and Install Java and JDK:
 
 For BurpSuit Professional / Community 2022.8.5 version:
 - For Java 18+: - [https://www.java.com/en/download/]

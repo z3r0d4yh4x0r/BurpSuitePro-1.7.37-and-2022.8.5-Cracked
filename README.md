@@ -6,14 +6,22 @@ Prequisites
 ------------
 
 Download .exe / .jar file for Burp Suite Pro from:
-- [https://portswigger.net/burp/releases/](https://portswigger.net/burp/releases/)
+- [Professional / Community 2022.8.5](https://portswigger.net/burp/releases/professional-community-2022-8-5?requestededition=professional)
+
+SHA256: d3eb33e5d941b59aa629a28c641f1cbdd14e865ff8014daee72e61add8cfdd9b
+
+MD5: 7e65bbf72f1f105524bc5cb092aa9240
 
 - [Professional / Community 2022.8.5](https://portswigger.net/burp/releases/professional-community-2022-8-5)
+
 SHA256: d3eb33e5d941b59aa629a28c641f1cbdd14e865ff8014daee72e61add8cfdd9b
+
 MD5: 7e65bbf72f1f105524bc5cb092aa9240
 
 - [Professional 1.7.37](https://portswigger.net/burp/releases/professional-1-7-37))
+
 SHA256: d2f27b7c96b11f87898304b543149d79a23ee7ca3e69519d99d1493f3202f054
+
 MD5: fe2ed99335c68d16b57883d2bfd6aeea
 	
 Download Burp Loader files. Then Follow Below Steps for Activation:
@@ -22,11 +30,10 @@ Download Burp Loader files. Then Follow Below Steps for Activation:
 	
 If using in Windows 10, 11 Download and Install Java and JDK:
 - For Java: - [https://www.java.com/en/download/](https://www.java.com/en/download/)
-- For JDK:  - [https://www.oracle.com/java/technologies/javase/jdk18-archive-downloads.html](https://www.oracle.com/java/technologies/javase/jdk18-archive-downloads.html) 
-	    - [https://www.oracle.com/java/technologies/downloads/#jdk18-windows](https://www.oracle.com/java/technologies/downloads/#jdk18-windows)
+- For JDK:  - [https://www.oracle.com/java/technologies/javase/jdk18-archive-downloads.html]
 
 For Professional 1.7.37 version:
-- For JAR/JDK (8u202): -[https://www.oracle.com/in/java/technologies/javase/javase8-archive-downloads.html](https://www.oracle.com/in/java/technologies/javase/javase8-archive-downloads.html)
+- For JAR/JDK (8u202): -[https://www.oracle.com/in/java/technologies/javase/javase8-archive-downloads.html]
 
 
 Execution and Activation

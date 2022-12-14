@@ -33,7 +33,7 @@ For BurpSuit Professional / Community 2022.8.5 version:
 For BurpSuit Professional 1.7.37 version:
 - For JAR/JDK (8u202): -[https://www.oracle.com/in/java/technologies/javase/javase8-archive-downloads.html]
 
-- *NOTE: For v1.7.37 only install JAR/JDK v8u202, if you have any newer JAR/JDK version install, First uninstall it then activate BurpSuite.*
+- *NOTE: For v1.7.37 only install JAR/JDK v8u202, if you have any newer JAR/JDK version installed, First uninstall it then activate BurpSuite.*
 
 
 Execution and Activation

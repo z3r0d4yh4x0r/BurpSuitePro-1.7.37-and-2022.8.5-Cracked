@@ -157,7 +157,7 @@ cp *.jar /home/kali/BurpSuitePro
 - Type cmd in the folder's path and hit ENTER
 ```
 cd /home/kali/BurpSuitePro
-``
+```
 	
 **4. Run This Command in opned CMD Prompt.**
 		
@@ -168,6 +168,7 @@ java -jar keygen.jar
 ```
 	
 **4.2. Use BurpSuit**
+
 ```
 java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:"/home/kali/BurpSuitePro/loader.jar" -noverify -jar "/home/kali/BurpSuitePro/burpsuite_pro.jar"
 

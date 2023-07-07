@@ -48,12 +48,29 @@ Finish
 
 ```
 	
-**4.2. M**
+**5. Fix Start Menu Shortcut and making script**
 
 ```
-java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:"/home/kali/BurpSuitePro/loader.jar" -noverify -jar "/home/kali/BurpSuitePro/burpsuite_pro.jar"
-
+Copy the Loader command from drfarfar
+┌──(kali㉿gteksd)--[~/opt/BurpSuitePro]
+└─$ sudo mousepad BhurpSuthPhro
 ```
+paste the copied command and add #!/bin/sh and save it (Ctrl + S)
+
+#!/bin/sh
+
+"/opt/BurpSuitePro/jre/bin/java" "--add-opens=java.desktop/javax.swing=ALL-UNNAMED" "--add-opens=java.base/java.lang=ALL-UNNAMED" "--add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED" "--add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED" "--add-opens=java.base/jdk.internal.org.objectweb.asm.Opcodes=ALL-UNNAMED" `"-javaagent:/opt/BurpSuitePro/Dr-FarFar.jar"` "-noverify" "-jar" "/opt/BurpSuitePro/burpsuite_pro.jar" 
+
+_Note: Updte Dr-FarFar.jar path_
+```
+└─$ sudo chmod 777 BhurpSuthPhro
+```
+Click START (Applications) search Burp
+Right click on Burp Suite Professional
+Click Edit Application...
+
+Edit Command to ` /opt/BurpSuitePro/BhurpSuthPhro `
+Save
 
 **5. Activate Burp Suite Pro**
 - 1. Modify License String like "license to GTekSD"

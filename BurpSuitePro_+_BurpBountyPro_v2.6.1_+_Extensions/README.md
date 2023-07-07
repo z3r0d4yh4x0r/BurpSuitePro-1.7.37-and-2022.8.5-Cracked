@@ -22,24 +22,33 @@ Install in /opt/BurpSuitePro/
 
 **2. Place all files in the installation folder ()**
 ```
-
+┌──(kali㉿gteksd)-[~/Downloads/BurpSuitePro-1.7.37-and-2022.8.5-Cracked/BurpSuitePro_+_BurpBountyPro_v2.6.1_+_Extensions/BurpSuitePro-Crack]
+└─$ cp Config.Dr-FarFar Dr-FarFar.jar /opt/BurpSuitePro/
+└─$ ../
+└─$ cp -r  Burp-Bounty-Pro /opt/BurpSuitePro 	
 ```
 	
 **3. Open terminal in the installation directory**
-- Type cmd in the folder's path and hit ENTER
 ```
-cd /home/kali/BurpSuitePro
+┌──(kali㉿gteksd)--[~/opt/BurpSuitePro]
+└─$ sudo java -jar Dr-FarFar.jar 
 ```
 	
-**4. Run This Command in opned CMD Prompt.**
-		
-**4.1. Use keygen.jar to generate the License key**
+**4. Activation BurpSuitePro.**
+```
+After opening drfarfar
+1. Click on RUN
+2. Copy [license Key] (Ctrl + A) >>>> (Ctrl + C) paste it into (Ctrl + V) BurpSuitePro
+3. Click Next
+4. Click on Manual Activalion
+5. Copy Request paste it into drfarfar [Activation Request]
+6. Copy [Activation Responce] click on Paste response in BurpSuitePro
+7. Next
+Finish
 
 ```
-java -jar keygen.jar
-```
 	
-**4.2. Use BurpSuit**
+**4.2. M**
 
 ```
 java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:"/home/kali/BurpSuitePro/loader.jar" -noverify -jar "/home/kali/BurpSuitePro/burpsuite_pro.jar"

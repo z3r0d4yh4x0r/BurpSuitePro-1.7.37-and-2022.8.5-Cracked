@@ -18,6 +18,7 @@ cd Downloads
 sh burpsuite_pro_linux_v2023_7.sh
 
 Install in /opt/BurpSuitePro/
+Next>Next>Next>Next
 ```
 
 **2. Place all files in the installation folder ()**
@@ -37,57 +38,42 @@ Install in /opt/BurpSuitePro/
 **4. Activation BurpSuitePro.**
 ```
 After opening drfarfar
-1. Click on RUN
-2. Copy [license Key] (Ctrl + A) >>>> (Ctrl + C) paste it into (Ctrl + V) BurpSuitePro
-3. Click Next
-4. Click on Manual Activalion
-5. Copy Request paste it into drfarfar [Activation Request]
-6. Copy [Activation Responce] click on Paste response in BurpSuitePro
-7. Next
+1. Click on 'RUN'
+2. Copy '[license Key] (Ctrl + A) >>>> (Ctrl + C)' paste it into (Ctrl + V) BurpSuitePro
+3. Click 'Next'
+4. Click on 'Manual Activalion'
+5. 'Copy Request' paste it into drfarfar '[Activation Request]'
+6. Copy '[Activation Responce]' click on 'Paste response' in BurpSuitePro
+7. 'Next'
 Finish
 
 ```
 	
-**5. Fix Start Menu Shortcut and making script**
-
+**5. Making script**
 ```
-Copy the Loader command from drfarfar
+Copy the 'Loader command' from drfarfar
 ┌──(kali㉿gteksd)--[~/opt/BurpSuitePro]
 └─$ sudo mousepad BhurpSuthPhro
-```
-paste the copied command and add #!/bin/sh and save it (Ctrl + S)
+
+paste the copied command and add '#!/bin/sh' and save it (Ctrl + S)
 
 #!/bin/sh
 
 "/opt/BurpSuitePro/jre/bin/java" "--add-opens=java.desktop/javax.swing=ALL-UNNAMED" "--add-opens=java.base/java.lang=ALL-UNNAMED" "--add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED" "--add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED" "--add-opens=java.base/jdk.internal.org.objectweb.asm.Opcodes=ALL-UNNAMED" `"-javaagent:/opt/BurpSuitePro/Dr-FarFar.jar"` "-noverify" "-jar" "/opt/BurpSuitePro/burpsuite_pro.jar" 
 
-_Note: Updte Dr-FarFar.jar path_
+_Note: Updte -javaagent:Dr-FarFar.jar path_
+```
+
+**6. Fix Start Menu Shortcut**
 ```
 └─$ sudo chmod 777 BhurpSuthPhro
-```
-Click START (Applications) search Burp
-Right click on Burp Suite Professional
-Click Edit Application...
 
-Edit Command to ` /opt/BurpSuitePro/BhurpSuthPhro `
-Save
+1. Click START (Applications) search 'Burp'
+2. Right click on 'Burp Suite Professional'
+3. Click 'Edit Application...'
 
-**5. Activate Burp Suite Pro**
-- 1. Modify License String like "license to GTekSD"
-- 2. Copy License key from keygen.jar and paste in Burp Suite Pro and click Next.
-- 3. Select Manual Activation Option on your bottom Right in Burp Suite Pro.
-- 4. Copy License Request from BurpSuite_Pro and paste in keygen.jar
-- 5. Copy license response from keygen.jar and paste in BurpSuite_Pro, and next and Done
-	
-**6. Open BurpSuit-Launcher.sh with mousepad.**
-- Edit burpsuit launcher cmd as per your file path as shown in 4.2
-	
-**6.1 For Launching Burp in Linux, run BurpSuit-Launcher.sh file.**
+Edit 'Command:' to ` /opt/BurpSuitePro/BhurpSuthPhro `
+'Save'
 ```
-mousepad BurpSuit-Launcher.sh
-```
-Paste this:
-```java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:"/home/kali/BurpSuitePro/loader.jar" -noverify -jar "/home/kali/BurpSuitePro/burpsuite_pro.jar"```
-Save
 
-Run: `sh BurpSuit-Launcher.sh`
+**DONE**

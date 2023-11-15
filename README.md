@@ -231,7 +231,7 @@ Execution and Activation
 **1. Installation**
 - Install Java
 - Install JDK
-- Install BurpSuit.exe normally [DO NOT TAMPER THE LOCATION]
+- Install BurpSuit.dmg normally [DO NOT TAMPER THE LOCATION]
 	
 **2. Place all files in the installation folder (keygen.jar,loader.jar)**
 - For Ex. Default location: /Applications/Burp Suite Professional.app/Contents/Resources/app/

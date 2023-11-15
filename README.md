@@ -259,7 +259,7 @@ java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:"/Applications/Bur
 - 4. Copy License Request from BurpSuite_Pro and paste in keygen.jar
 - 5. Copy license response from keygen.jar and paste in BurpSuite_Pro, and next and Done
 	
-**6. Open BurpSuit-Launcher.sh with Notepad.**
+**6. Open BurpSuit-Launcher.sh with Text Editor.**
 - Edit burpsuit launcher command as per your file path as shown in 4.2
 	
 **6.1 For Launching Burp in MacOS:**

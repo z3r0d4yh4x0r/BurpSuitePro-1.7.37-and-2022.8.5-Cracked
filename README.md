@@ -1,4 +1,4 @@
-# Activated BurpSuit Professional 1.7.37 / 2022.8.5 for Windows 10/ 11
+# Activated BurpSuit Professional 1.7.37 / 2022.8.5 for Windows 10/ 11 
 - This activator works only till version 2022.8.5
 
 
@@ -193,3 +193,78 @@ Paste this:
 Save
 
 Run: `sh BurpSuit-Launcher.sh`
+
+# Activated BurpSuit Professional 1.7.37 / 2022.8.5 for Apple MacOS M1/M2
+- This activator works only till version 2022.8.5
+
+
+Prequisites
+------------
+
+#### Download .dmg file from:
+
+- [BurpSuit Professional / Community 2022.8.5](https://portswigger.net/burp/releases/professional-community-2022-8-5?requestededition=professional)
+
+- [BurpSuit Professional 1.7.37](https://portswigger.net/burp/releases/professional-1-7-37)
+	
+#### Download Burp Loader files. Then Follow Below Steps for Activation:
+- [https://github.com/GTekSD/BurpSuit-launcher](https://github.com/GTekSD/BurpSuit-launcher)
+- [https://github.com/decrypt3r/Burp-Loader/](https://github.com/decrypt3r/Burp-Loader/)
+	
+#### Download and Install Java and JDK:
+
+For BurpSuit Professional / Community 2022.8.5 version:
+- For Java 18+: - [https://www.java.com/en/download/]
+- For JDK 18+:  - [https://www.oracle.com/java/technologies/javase/jdk18-archive-downloads.html]
+
+For BurpSuit Professional 1.7.37 version:
+- For JAR/JDK (8u202): -[https://www.oracle.com/in/java/technologies/javase/javase8-archive-downloads.html]
+
+- *NOTE: For v1.7.37 only install JAR/JDK v8u202, if you have any newer JAR/JDK version installed, First uninstall it then activate BurpSuite.*
+
+
+Execution and Activation
+------------
+	
+***FOR burpsuite_pro_windows-x64.exe***
+	
+**1. Installation**
+- Install Java
+- Install JDK
+- Install BurpSuit.exe normally [DO NOT TAMPER THE LOCATION]
+	
+**2. Place all files in the installation folder (keygen.jar,loader.jar)**
+- For Ex. Default location: /Applications/Burp Suite Professional.app/Contents/Resources/app/
+	
+**3. Open Terminal in the installation folder**
+	
+**4. Run This Command in opned Terminal Prompt.**
+		
+**4.1. Use keygen.jar to generate the License key**
+
+```
+java -jar keygen.jar
+```
+	
+**4.2. Use BurpSuit**
+```
+java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:"/Applications/Burp Suite Professional.app/Contents/Resources/app/loader.jar" 
+-noverify -jar "/Applications/Burp Suite Professional.app/Contents/Resources/app/burpsuite_pro.jar"
+```
+
+**5. Activate Burp Suite Pro**
+- 1. Modify License String like "license to GTekSD"
+- 2. Copy License key from keygen.jar and paste in Burp Suite Pro and click Next.
+- 3. Select Manual Activation Option on your bottom Right in Burp Suite Pro.
+- 4. Copy License Request from BurpSuite_Pro and paste in keygen.jar
+- 5. Copy license response from keygen.jar and paste in BurpSuite_Pro, and next and Done
+	
+**6. Open BurpSuit-Launcher.sh with Notepad.**
+- Edit burpsuit launcher command as per your file path as shown in 4.2
+	
+**6.1 For Launching Burp in MacOS:**
+
+```
+chmod +x BurpSuit-Launcher.sh
+./BurpSuit-Launcher.sh
+```

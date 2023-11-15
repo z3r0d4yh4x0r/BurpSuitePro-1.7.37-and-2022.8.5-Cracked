@@ -30,7 +30,7 @@ For BurpSuit Professional 1.7.37 version:
 Execution and Activation
 ------------
 	
-***FOR burpsuite_pro_windows-x64.exe***
+***FOR burpsuite_pro_macos_x64_v2022_8_5.dmg***
 	
 **1. Installation**
 - Install Java
